@@ -24,7 +24,7 @@
     <org.eclipse.jdt>3.4.2.v_883_R34x</org.eclipse.jdt>
     <org.eclipse.swt.version>4.6</org.eclipse.swt.version>
     <jface.version>3.3.0-I20070606-0010</jface.version>
-    <mockito.version>1.9.5</mockito.version>
+    <mockito.version>1.10.19</mockito.version>
   </properties>
 
   <build>
