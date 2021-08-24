@@ -16,7 +16,7 @@
   <name>PDI Engine Configuration Plugin Implementation</name>
 
   <properties>
-    <dependency.mockito.version>1.9.5</dependency.mockito.version>
+    <dependency.mockito.version>1.10.19</dependency.mockito.version>
   </properties>
 
   <dependencies>
