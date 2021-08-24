@@ -97,12 +97,6 @@ updates:
       interval: 'daily'
 
   - package-ecosystem: 'maven'
-    directory: 'integration'
-    open-pull-requests-limit: 3
-    schedule:
-      interval: 'daily'
-
-  - package-ecosystem: 'maven'
     directory: 'plugins'
     open-pull-requests-limit: 3
     schedule:
@@ -1010,42 +1004,6 @@ updates:
 
   - package-ecosystem: 'maven'
     directory: 'utilities/pentaho-importer-utility/importer-utility'
-    open-pull-requests-limit: 3
-    schedule:
-      interval: 'daily'
-
-  - package-ecosystem: 'npm'
-    directory: 'plugins/connections/ui/src/main/resources-filtered/app'
-    open-pull-requests-limit: 3
-    schedule:
-      interval: 'daily'
-
-  - package-ecosystem: 'npm'
-    directory: 'plugins/core-ui/src/main/resources-filtered/app'
-    open-pull-requests-limit: 3
-    schedule:
-      interval: 'daily'
-
-  - package-ecosystem: 'npm'
-    directory: 'plugins/file-open-save/core/src/main/resources-filtered/app'
-    open-pull-requests-limit: 3
-    schedule:
-      interval: 'daily'
-
-  - package-ecosystem: 'npm'
-    directory: 'plugins/file-open-save-new/core/src/main/resources-filtered/app'
-    open-pull-requests-limit: 3
-    schedule:
-      interval: 'daily'
-
-  - package-ecosystem: 'npm'
-    directory: 'plugins/get-fields/core/src/main/resources-filtered/app'
-    open-pull-requests-limit: 3
-    schedule:
-      interval: 'daily'
-
-  - package-ecosystem: 'npm'
-    directory: 'plugins/repositories/core/src/main/resources-filtered/app'
     open-pull-requests-limit: 3
     schedule:
       interval: 'daily'
