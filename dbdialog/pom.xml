@@ -17,7 +17,7 @@
   </parent>
 
   <properties>
-    <powermock.version>1.6.3</powermock.version>
+    <powermock.version>1.7.4</powermock.version>
   </properties>
 
   <dependencies>
