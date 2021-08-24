@@ -29,7 +29,7 @@
     <build.description>${project.description}</build.description>
     <maven.build.timestamp.format>yyyy/MM/dd hh:mm</maven.build.timestamp.format>
     <dependency.com.tinkerpop.blueprints.version>2.6.0</dependency.com.tinkerpop.blueprints.version>
-    <dependency.org.powermock.version>1.6.0</dependency.org.powermock.version>
+    <dependency.org.powermock.version>2.0.9</dependency.org.powermock.version>
   </properties>
 
   <dependencies>
