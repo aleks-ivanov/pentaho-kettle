@@ -1,0 +1,34 @@
+name: CI/CD Pipeline
+
+on: [ push, pull_request, workflow_dispatch ]
+
+jobs:
+  ci:
+    name: Continuous Integration
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Tooling setup
+
+      - uses: actions/setup-java@v2
+        with:
+          distribution: 'temurin'
+          java-version: '8'
+
+      # Build and test validation
+
+      - name: Build project
+        run: |
+          mvn clean install -Dmaven.test.skip=true
+
+      - name: Run unit tests
+        run: |
+          mvn test
+
+      - name: Run integration tests
+        run: |
+          mvn verify -DrunITs
