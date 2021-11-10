@@ -1,0 +1,1011 @@
+version: 2
+updates:
+  - package-ecosystem: 'maven'
+    directory: ''
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'assemblies/client'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'assemblies/core'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'assemblies/core/client'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'assemblies/core/lib'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'assemblies/core/static'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'assemblies/lib'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'assemblies/plugins'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'assemblies/samples'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'assemblies/static'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'core'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'dbdialog'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'engine'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'engine-ext'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'engine-ext/api'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/aggregate-rows'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/aggregate-rows/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/aggregate-rows/assemblies/plugin'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/aggregate-rows/core'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/connections'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/connections/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/connections/assemblies/feature'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/connections/ui'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/core'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/core/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/core/assemblies/plugin'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/core/impl'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/core/ui'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/core-ui'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/drools'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/drools/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/drools/assemblies/plugin'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/drools/core'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/dummy'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/dummy/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/dummy/assemblies/plugin'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/dummy/core'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/elasticsearch-bulk-insert'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/elasticsearch-bulk-insert/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/elasticsearch-bulk-insert/assemblies/plugin'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/elasticsearch-bulk-insert/core'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/engine-configuration'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/engine-configuration/api'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/engine-configuration/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/engine-configuration/assemblies/feature'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/engine-configuration/impl'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/engine-configuration/ui'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/file-open-save'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/file-open-save/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/file-open-save/assemblies/feature'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/file-open-save/core'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/file-open-save-new'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/file-open-save-new/api'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/file-open-save-new/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/file-open-save-new/assemblies/feature'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/file-open-save-new/core'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/file-stream'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/get-fields'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/get-fields/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/get-fields/assemblies/feature'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/get-fields/core'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/get-previous-row-field'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/get-previous-row-field/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/get-previous-row-field/assemblies/plugin'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/get-previous-row-field/core'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/google-analytics'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/google-analytics/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/google-analytics/assemblies/plugin'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/google-analytics/core'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/gp-bulk-loader'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/gp-bulk-loader/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/gp-bulk-loader/assemblies/plugin'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/gp-bulk-loader/core'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/gpload'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/gpload/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/gpload/assemblies/plugin'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/gpload/core'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/hl7'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/hl7/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/hl7/assemblies/plugin'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/hl7/core'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/json'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/json/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/json/assemblies/plugin'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/json/core'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/log4j'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/log4j/core'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/lucid-db-streaming-loader'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/lucid-db-streaming-loader/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/lucid-db-streaming-loader/assemblies/plugin'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/lucid-db-streaming-loader/core'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/meta-inject'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/ms-access'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/ms-access/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/ms-access/assemblies/plugin'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/ms-access/impl'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/ms-access/ui'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/openerp'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/openerp/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/openerp/assemblies/plugin'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/openerp/core'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/palo'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/palo/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/palo/assemblies/plugin'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/palo/core'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/pentaho-googledrive-vfs'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/pentaho-googledrive-vfs/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/pentaho-googledrive-vfs/assemblies/plugin'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/pentaho-googledrive-vfs/core'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/pentaho-repository-vfs'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/pentaho-repository-vfs/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/pentaho-repository-vfs/assemblies/feature'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/pentaho-repository-vfs/core'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/pur'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/pur/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/pur/assemblies/plugin'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/pur/core'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/pur/repository-proxy'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/repositories'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/repositories/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/repositories/assemblies/feature'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/repositories/core'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/s3csvinput'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/s3csvinput/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/s3csvinput/assemblies/plugin'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/s3csvinput/core'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/salesforce'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/salesforce/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/salesforce/assemblies/plugin'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/salesforce/core'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/sap'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/sap/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/sap/assemblies/plugin'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/sap/core'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/shapefilereader'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/shapefilereader/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/shapefilereader/assemblies/plugin'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/shapefilereader/core'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/streaming'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/streaming/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/streaming/assemblies/feature'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/streaming/impls'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/streaming/impls/jms'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/streaming/impls/mqtt'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/version-checker'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/version-checker/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/version-checker/assemblies/plugin'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/version-checker/core'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/xml'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/xml/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/xml/assemblies/plugin'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/xml/core'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/xml-input'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/xml-input/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/xml-input/assemblies/plugin'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/xml-input/core'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/xml-input-stream'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/xml-input-stream/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/xml-input-stream/assemblies/plugin'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'plugins/xml-input-stream/core'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'ui'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'utilities'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'utilities/pentaho-importer-utility'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'utilities/pentaho-importer-utility/assemblies'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'utilities/pentaho-importer-utility/assemblies/utility'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+  - package-ecosystem: 'maven'
+    directory: 'utilities/pentaho-importer-utility/importer-utility'
+    open-pull-requests-limit: 3
+    schedule:
+      interval: 'daily'
+
+# Built with ❤ by [Pipeline Foundation](https://pipeline.foundation)
