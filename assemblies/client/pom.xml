@@ -20,7 +20,7 @@
 
     <pentaho-karaf.version>9.3.0.0-SNAPSHOT</pentaho-karaf.version>
     <pentaho-launcher.version>9.3.0.0-SNAPSHOT</pentaho-launcher.version>
-    <oss-licenses.version>9.3.0.0-SNAPSHOT</oss-licenses.version>
+    <oss-licenses.version>80.2018.03.06-254</oss-licenses.version>
 
     <!-- swt -->
     <org.eclipse.swt.gtk.linux.x86.version>3.108.0</org.eclipse.swt.gtk.linux.x86.version>
