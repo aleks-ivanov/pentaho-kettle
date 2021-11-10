@@ -91,7 +91,7 @@
     <dependency>
       <groupId>org.eclipse</groupId>
       <artifactId>jface</artifactId>
-      <version>jface.version</version>
+      <version>3.5.2</version>
       <scope>provided</scope>
       <exclusions>
         <exclusion>
