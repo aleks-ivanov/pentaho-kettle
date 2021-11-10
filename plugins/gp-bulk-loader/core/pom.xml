@@ -15,7 +15,7 @@
   <name>PDI GP Bulk Loader Plugin Core</name>
 
   <properties>
-    <dependency.javax.servlet-api.version>3.0.1</dependency.javax.servlet-api.version>
+    <dependency.javax.servlet-api.version>4.0.1</dependency.javax.servlet-api.version>
     <pdi.version>9.3.0.0-SNAPSHOT</pdi.version>
     <build.revision>${project.version}</build.revision>
     <timestamp>${maven.build.timestamp}</timestamp>
