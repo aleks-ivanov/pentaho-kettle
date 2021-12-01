@@ -110,7 +110,7 @@
     <dependency>
       <groupId>com.google.http-client</groupId>
       <artifactId>google-http-client</artifactId>
-      <version>1.20.0</version>
+      <version>1.40.1</version>
       <exclusions>
         <!-- Vulnerable component - need more recent version [PPP-3571] -->
         <exclusion>
