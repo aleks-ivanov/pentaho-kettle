@@ -42,7 +42,7 @@
         <webservices-rt.version>2.3.1</webservices-rt.version>
         <asm.version>3.2</asm.version>
         <blueprints-core.version>2.6.0</blueprints-core.version>
-        <commons-configuration.version>1.9</commons-configuration.version>
+        <commons-configuration.version>1.10</commons-configuration.version>
         <flexjson.version>2.1</flexjson.version>
         <jersey-multipart.version>1.19.1</jersey-multipart.version>
         <mimepull.version>1.9.3</mimepull.version>
