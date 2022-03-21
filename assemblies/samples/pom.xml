@@ -16,7 +16,7 @@
 
   <properties>
     <!-- build plugins -->
-    <properties-maven-plugin.version>1.0.0</properties-maven-plugin.version>
+    <properties-maven-plugin.version>1.1.0</properties-maven-plugin.version>
     <sql-maven-plugin.version>1.5</sql-maven-plugin.version>
   </properties>
 
