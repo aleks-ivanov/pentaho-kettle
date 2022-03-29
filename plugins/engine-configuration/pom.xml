@@ -16,7 +16,7 @@
   <name>PDI Engine Configuration Plugin</name>
 
   <properties>
-    <pdi.version>9.3.0.0-SNAPSHOT</pdi.version>
+    <pdi.version>9.4.0.0-SNAPSHOT</pdi.version>
   </properties>
 
   <modules>
