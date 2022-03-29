@@ -21,7 +21,7 @@
   </modules>
 
   <properties>
-    <pdi.version>9.3.0.0-SNAPSHOT</pdi.version>
+    <pdi.version>9.4.0.0-SNAPSHOT</pdi.version>
     <version.for.license>${project.version}</version.for.license>
     <js.project.list>requirejs,requirejs-text,angular,require-css,angular-i18n,uirouter__core,uirouter__angularjs</js.project.list>
     <pentaho-osgi-bundles.version>9.3.0.0-SNAPSHOT</pentaho-osgi-bundles.version>
