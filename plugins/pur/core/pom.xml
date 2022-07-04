@@ -25,7 +25,7 @@
 
     <!-- Third party dependencies -->
     <webservices-api.version>2.3.1</webservices-api.version>
-    <webservices-rt.version>2.3.1</webservices-rt.version>
+    <webservices-rt.version>4.0.1</webservices-rt.version>
     <servlet-api.version>2.5</servlet-api.version>
     <encoder.version>1.2</encoder.version>
     <jersey-multipart.version>1.19.1</jersey-multipart.version>
