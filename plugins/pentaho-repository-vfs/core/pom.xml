@@ -15,7 +15,7 @@
 	<name>Pentaho Repository VFS Plugin Core</name>
 
 	<properties>
-		<pdi.version>9.3.0.0-SNAPSHOT</pdi.version>
+		<pdi.version>9.5.0.0-SNAPSHOT</pdi.version>
 	</properties>
 
 	<dependencies>
