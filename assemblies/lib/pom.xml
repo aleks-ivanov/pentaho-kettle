@@ -27,7 +27,7 @@
     <pentaho-registry.version>9.3.0.0-SNAPSHOT</pentaho-registry.version>
     <pentaho-metaverse.version>9.3.0.0-SNAPSHOT</pentaho-metaverse.version>
     <platform.version>9.3.0.0-SNAPSHOT</platform.version>
-    <pentaho-reporting.version>9.3.0.0-SNAPSHOT</pentaho-reporting.version>
+    <pentaho-reporting.version>9.5.0.0-SNAPSHOT</pentaho-reporting.version>
     <big-data-plugin.version>9.3.0.0-SNAPSHOT</big-data-plugin.version>
     <pentaho-hadoop-shims.version>9.3.0.0-SNAPSHOT</pentaho-hadoop-shims.version>
 
