@@ -24,7 +24,7 @@
     <pentaho-osgi-bundles.version>9.3.0.0-SNAPSHOT</pentaho-osgi-bundles.version>
     <pdi-pur-plugin.version>9.3.0.0-SNAPSHOT</pdi-pur-plugin.version>
     <junit.version>4.11</junit.version>
-    <mockito-core.version>1.9.5</mockito-core.version>
+    <mockito-core.version>4.11.0</mockito-core.version>
   </properties>
 
   <dependencies>
